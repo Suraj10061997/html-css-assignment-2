@@ -1,7 +1,94 @@
 /* Our CSS file. */
 
 
-.container, .content {
-width: 100%;
-height: 100%;
+*{
+    margin:0;
+    padding:0;
+}
+#container{
+    background:rgba(0,0,0,.25);
+}
+#container1{
+    background:rgba(0,0,0,.25);
+    padding:2px 0;
+    border:1px solid black;
+    margin-bottom:2px;
+}
+#header{
+    background:rgba(0,0,0,.25);
+    width:98vw;
+    height:4vw;
+    margin:0 auto;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+#nav{
+    background:rgba(0,0,0,.25);
+    width:98vw;
+    height:2vw;
+    margin:2px auto;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+    margin:0 50px;
+    font-size: 25px;
+}
+#logo_container{
+    background:rgba(0,0,0,.25);
+    width:100px;
+    height:50px;
+}
+
+
+#container2{
+    display:flex;
+    justify-content:center;
+    background:rgba(0,0,0,.25);
+}
+#aside1{
+    background:rgba(0,0,0,.25);
+    width:11vw;
+    height:70vh;
+    text-align:center;
+}
+#section{
+    background:rgba(0,0,0,.25);
+    width:75vw;
+    height:70vh;
+    margin:0 8px;
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    align-items: center;
+}
+#aside2{
+    background:rgba(0,0,0,.25);
+    width:11vw;
+    height:70vh;
+    text-align:center;
+}
+aside ul {
+    list-style-type: none;
+}
+aside ul li{
+    margin-bottom:30px;
+}
+
+#container3{
+    background:rgba(0,0,0,.25);
+    margin-top:20px;
+    height:13vh;
+    padding:0 15px;
+}
+#footer{
+    background:rgba(0,0,0,.25);
+    height:13vh;
 }
